@@ -1,0 +1,117 @@
+/* home media query */
+ @media (max-width:940px){
+    nav{
+        padding: 0 30px 0 80px;
+    }
+    nav .minbar i{
+        display: block;
+    }
+    #click:checked ~ .minbar i::before{
+        content: "\f00d";
+    }
+    nav ul{
+       position: fixed;
+       top: 80px;
+       right:-100%;
+       height: 100vh;
+       width: 50%;
+       background-color: rgb(46, 46, 46);
+       display: block;
+       text-align: center;
+       padding-top: 30px;
+       transition: all 1s ease;
+    }
+    #click:checked ~ ul {
+        right: 0;
+    }
+ nav ul li a , nav ul span a{
+    display: block;
+    /* font-weight: 600; */
+    font-size:20px;
+}  
+ }
+ @media (max-width:940px){
+    .home-contact h1{
+     font-size: 40px;
+    }
+}
+    @media (max-width:600px){
+        .home-contact h1{
+         font-size: 30px;
+        }
+ }
+ @media (max-width:940px){
+    .about {
+        
+       display: block;
+       width: 100%;
+
+
+    }
+}
+@media (max-width:940px){
+.about-contact{
+    display: inline;
+ }}
+
+@media (max-width:940px){
+    .about .enter{
+        padding-left: 0px;
+        width: 100%;
+     padding-bottom: 20px;
+     
+    }
+    .amg1_perant .child{
+       top: 0;
+       left: 0;
+    }
+}
+   
+@media (max-width:940px){
+    .about .text2{
+        width: 100%;   
+     padding-bottom: 20px;
+    }
+}
+
+@media (max-width:940px){
+.our-service{
+    display: inline;
+}    
+}
+@media (max-width:940px){
+    .youtube{
+        display: inline;
+    }  
+     .youtube1{
+        width: 100%;
+        margin-top: 50px;
+margin-bottom: 50px; 
+     }  
+     .youtube2{
+        width: 100%;
+        margin-top: 50px;
+        margin-bottom: 50px; 
+     }  
+     .youtube3{
+        width: 100%;
+        margin-top: 50px;
+        margin-bottom: 50px; 
+     }  
+}
+@media (max-width:940px){
+    .feedback{
+        display: block;
+       
+    }
+    .bath{
+        margin-top: 50px;
+        margin-bottom: 50px; 
+        width: 100%;
+    }
+    .feedimg{
+        margin-top: 50px;
+        margin-bottom: 50px;
+        width: 100%;
+    }
+}
